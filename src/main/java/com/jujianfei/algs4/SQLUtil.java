@@ -1,14 +1,10 @@
 package com.jujianfei.algs4;
 
-/*********************************************************
- * 文件名称： SQLUtil.java
- * 系统名称： 区块链系统 V1.0
- * 模块名称： com.jujianfei.algs4
- * 功能说明： TODO jujf26056
- * 开发人员： jujf26056
- * 开发时间： 2018/10/26 9:25
- * 修改记录： 程序版本 修改日期 修改人员 修改单号 修改说明
- *********************************************************/
+/**
+ * 拼接SQL
+ * @author jeffery
+ * @date 2018-10-29 09:07
+ */
 public class SQLUtil {
     public static void main(String[] args) {
         String sql = "UPDATE FORFEITING_FORM SET FORM_ID = FORM_ID,FORM_STATUS = ?,MODIFY_DATE = ? WHERE FORM_ID = ?";
