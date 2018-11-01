@@ -1,5 +1,6 @@
-package com.jujianfei.algs4;
+package com.jeffery.algs4.chapter1;
 
+import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
@@ -7,7 +8,7 @@ import java.util.Arrays;
 /**
  * 《算法》：第一章
  *
- * @author jujianfei
+ * @author Jeffery_Ju
  * @date 2018-10-24 22：40
  */
 public class BinarySearch {

@@ -1,9 +1,9 @@
-package com.jujianfei.algs4;
+package com.jeffery.algs4.chapter2;
 
 /**
  * 《算法》：第一章
  *
- * @author jujianfei
+ * @author Jeffery_Ju
  * @date 2018-11-1 10:44:15
  */
 public class Temp {

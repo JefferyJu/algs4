@@ -1,9 +1,9 @@
-package com.jujianfei.algs4;
+package com.jeffery.algs4.chapter1;
 
 /**
  * 《算法》 第一章 p15
  *
- * @author jujianfei
+ * @author Jeffery_Ju
  * @date 2018-11-1 14:10:09
  */
 public class BinarySearch2 {
