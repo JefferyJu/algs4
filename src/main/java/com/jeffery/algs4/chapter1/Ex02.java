@@ -8,7 +8,6 @@ package com.jeffery.algs4.chapter1;
  */
 public class Ex02 {
     public static void main(String[] args) {
-
         double v = (1 + 2.236) / 2;
         System.out.println(v);
         double v1 = 1 + 2 + 3 + 4.0;
