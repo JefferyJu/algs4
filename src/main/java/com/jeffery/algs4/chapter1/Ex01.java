@@ -1,7 +1,9 @@
 package com.jeffery.algs4.chapter1;
 
 /**
- * 《算法》 第一章 课后习题 1.1.1
+ * 《算法》 第一章 p33
+ * <p>
+ * 课后习题 1.1.1
  *
  * @author Jeffery_Ju
  * @date 2018-11-1 16:20:11

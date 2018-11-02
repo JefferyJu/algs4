@@ -7,7 +7,9 @@ import edu.princeton.cs.algs4.StdOut;
 import java.util.Arrays;
 
 /**
- * 《算法》：第一章
+ * 《算法》：第一章 p10
+ * <p>
+ * 二分查找法
  *
  * @author Jeffery_Ju
  * @date 2018-10-24 22：40

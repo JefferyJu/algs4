@@ -2,11 +2,13 @@ package com.jeffery.algs4.chapter1;
 
 /**
  * 《算法》 第一章 p15
+ * <p>
+ * 二分查找法之递归写法
  *
  * @author Jeffery_Ju
  * @date 2018-11-1 14:10:09
  */
-public class BinarySearch2 {
+public class BinarySearchRecursion {
 
     public static int rank(int key, int[] a) {
         return rank(key, a, 0, a.length - 1);
