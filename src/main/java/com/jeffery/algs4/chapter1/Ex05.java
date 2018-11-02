@@ -8,7 +8,7 @@ import edu.princeton.cs.algs4.StdIn;
  * @author Jeffery_Ju
  * @date 2018-11-1 17:13:08
  */
-public class EX05 {
+public class Ex05 {
     public static void main(String[] args) {
         double x = StdIn.readDouble();
         double y = StdIn.readDouble();
