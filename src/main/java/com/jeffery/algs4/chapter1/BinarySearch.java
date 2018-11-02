@@ -5,6 +5,7 @@ import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
 import java.util.Arrays;
+
 /**
  * 《算法》：第一章
  *
