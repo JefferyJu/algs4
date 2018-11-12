@@ -6,7 +6,7 @@ package com.jeffery.algs4.chapter1;
  * 课后习题 1.1.5
  *
  * @author Jeffery_Ju
- * @date 2018/11/10 15:29:59
+ * @date 2018-11-10 15:29:59
  */
 public class Ex09 {
     public static void main(String[] args) {

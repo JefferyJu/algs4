@@ -8,7 +8,7 @@ import edu.princeton.cs.algs4.StdOut;
  * 课后习题 1.1.7
  *
  * @author Jeffery_Ju
- * @date 2018/11/10 15:28:50
+ * @date 2018-11-10 15:28:50
  */
 public class Ex07 {
     public static void main(String[] args) {
