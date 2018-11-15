@@ -1,11 +1,11 @@
 package com.jeffery.algs4.chapter1;
 
 /**
- * 《算法》 第一章 p15
+ * 《算法》 第一章 p15 1.1.6.4
  * <p>
  * 二分查找法之递归写法
  *
- * @author Jeffery_Ju
+ * @author Jeffery_Ju@163.com
  * @date 2018-11-1 14:10:09
  */
 public class BinarySearchRecursion {

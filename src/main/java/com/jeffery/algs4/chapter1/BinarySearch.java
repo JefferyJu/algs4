@@ -11,7 +11,7 @@ import java.util.Arrays;
  * <p>
  * 二分查找法
  *
- * @author Jeffery_Ju
+ * @author Jeffery_Ju@163.com
  * @date 2018-10-24 22：40
  */
 public class BinarySearch {

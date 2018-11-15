@@ -5,17 +5,14 @@ package com.jeffery.algs4.chapter1;
  * <p>
  * 课后习题 1.1.18
  *
- * @author Jeffery_Ju
+ * @author Jeffery_Ju@163.com
  * @date 2018-11-12 17:20:40
  */
 public class Ex18 {
     public static void main(String[] args) {
-        // 50
-        System.out.println(mystery(2, 25));
-        // 33
-        System.out.println(mystery(3, 11));
-
-        System.out.println(mystery(10,20));
+        System.out.println(mystery(2, 2));
+        //System.out.println(mystery(3, 11));
+        //System.out.println(mystery(10,20));
 
     }
 
@@ -33,8 +30,10 @@ public class Ex18 {
             return 0;
         }
         if (b % 2 == 0) {
+            System.out.println(mystery(a + a, b / 2));
             return mystery(a + a, b / 2);
         }
+        System.out.println(mystery(a + a, b / 2));
         return mystery(a + a, b / 2) + a;
     }
 }

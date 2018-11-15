@@ -3,7 +3,7 @@ package com.jeffery.algs4.chapter2;
 /**
  * 《算法》：第一章
  *
- * @author Jeffery_Ju
+ * @author Jeffery_Ju@163.com
  * @date 2018-11-1 10:44:15
  */
 public class Temp {

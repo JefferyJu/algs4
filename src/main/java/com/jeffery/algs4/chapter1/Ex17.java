@@ -5,7 +5,7 @@ package com.jeffery.algs4.chapter1;
  * <p>
  * 课后习题 1.1.17
  *
- * @author Jeffery_Ju
+ * @author Jeffery_Ju@163.com
  * @date 2018-11-12 17:06:25
  */
 public class Ex17 {
