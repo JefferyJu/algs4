@@ -6,6 +6,8 @@ import edu.princeton.cs.algs4.StdOut;
  * 《算法》 第一章 p33
  * <p>
  * 课后习题 1.1.7
+ * <p>
+ * 分别给出以下代码段打印出的值：
  *
  * @author Jeffery_Ju@163.com
  * @date 2018-11-10 15:28:50
@@ -48,7 +50,7 @@ public class Ex07 {
         int sum = 0;
         for (int i = 1; i < 1000; i *= 2) {
             for (int j = 0; j < 1000; j++) {
-                System.out.println(i+" "+j);
+                System.out.println(i + " " + j);
                 sum++;
             }
         }

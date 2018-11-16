@@ -4,6 +4,8 @@ package com.jeffery.algs4.chapter1;
  * 《算法》 第一章
  * <p>
  * 课后习题 1.1.14
+ * <p>
+ * 编写一个静态方法 lg()， 接受一个整型参数 N， 返回不大于 log2N 的最大整数。 不要使用 Math 库
  *
  * @author Jeffery_Ju@163.com
  * @date 2018-11-12 09:56:17
@@ -11,7 +13,6 @@ package com.jeffery.algs4.chapter1;
 public class Ex14 {
 
     public static void main(String[] args) {
-        //编写一个静态方法 lg()， 接受一个整型参数 N， 返回不大于 logN 的最大整数。 不要使用 Math 库。
         System.out.println(lg(21));
     }
 

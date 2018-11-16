@@ -4,6 +4,11 @@ package com.jeffery.algs4.chapter1;
  * 《算法》 第一章 p33
  * <p>
  * 课后习题 1.1.1
+ * <p>
+ * 给出以下表达式的值：
+ * a. ( 0 + 15 ) / 2
+ * b. 2.0e-6 * 100000000.1
+ * c. true && false || true && true
  *
  * @author Jeffery_Ju@163.com
  * @date 2018-11-1 16:20:11

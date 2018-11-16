@@ -4,6 +4,8 @@ package com.jeffery.algs4.chapter1;
  * 《算法》 第一章
  * <p>
  * 课后习题 1.1.16
+ * <p>
+ * 给出 exR1(6) 的返回值：
  *
  * @author Jeffery_Ju@163.com
  * @date 2018-11-12 15:42:33

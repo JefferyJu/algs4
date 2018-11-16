@@ -4,6 +4,8 @@ package com.jeffery.algs4.chapter1;
  * 《算法》 第一章
  * <p>
  * 课后习题 1.1.13
+ * <p>
+ * 编写一段代码， 打印出一个 M 行 N 列的二维数组的转置（ 交换行和列）
  *
  * @author Jeffery_Ju@163.com
  * @date 2018-11-12 09:54:57
