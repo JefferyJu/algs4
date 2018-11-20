@@ -1,5 +1,7 @@
 package com.jeffery.algs4.chapter1;
 
+import java.util.Arrays;
+
 /**
  * 《算法》 第一章
  * <p>
@@ -15,6 +17,69 @@ package com.jeffery.algs4.chapter1;
  */
 public class Ex29 {
     public static void main(String[] args) {
+        int key = 9;
+        int[] a = {0, 1, 2, 3, 2, 4, 6, 7, 8, 9, 5, 5};
+        Arrays.sort(a);
+        int i = rank(key, a);
+        int j = count(key, a);
+        int end = i + j - 1;
+        if (i == end) {
+            System.out.println(a[i] == key ? "true" : "false");
+        } else {
+            int[] ints = Arrays.copyOfRange(a, i, end);
+            boolean flag = true;
+            for (int in : ints) {
+                if (key != in) {
+                    flag = false;
+                }
+            }
+            System.out.println(flag);
+        }
+    }
 
+    /**
+     * 查找数组a中小于key的元素数量
+     *
+     * @param key 键值
+     * @param a   排序后的数组
+     * @return 小于key的元素数量
+     */
+    private static int rank(int key, int[] a) {
+        int count = 0;
+        int lo = 0;
+        int hi = a.length - 1;
+        while (lo <= hi) {
+            int mid = lo + (hi - lo) / 2;
+            if (key < a[mid]) {
+                hi = mid - 1;
+            } else if (key > a[mid]) {
+                lo = mid + 1;
+            } else {
+                if (mid - 1 < 0) {
+                    break;
+                }
+                if (a[mid - 1] < key) {
+                    return mid;
+                }
+            }
+        }
+        return 0;
+    }
+
+    /**
+     * 查找数组a中等于key的元素个数
+     *
+     * @param key 键值
+     * @param a   排序后的数组
+     * @return 等于key的元素数量
+     */
+    private static int count(int key, int[] a) {
+        int count = 0;
+        for (int i : a) {
+            if (i == key) {
+                count++;
+            }
+        }
+        return count;
     }
 }
