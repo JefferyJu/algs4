@@ -28,7 +28,8 @@ public class Ex21 {
         }
         System.out.println("-------------表格-------------");
         for (int j = 0; j < i; j++) {
-            String[] s = str[j].split("\\s+");//  \\s表示 空格,回车,换行等空白符
+            //  \\s表示 空格,回车,换行等空白符
+            String[] s = str[j].split("\\s+");
             // split()方法将一个字符串按照空格分割，结果作为字符串数组返回。
             System.out.printf("姓名：%-20s   成绩1：%-10s   成绩二：%-10s   相除：%-13.3f \n", s[0], s[1], s[2],
                     Double.parseDouble(s[1]) / Double.parseDouble(s[2]));
