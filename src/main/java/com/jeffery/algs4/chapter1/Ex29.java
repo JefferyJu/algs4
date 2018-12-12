@@ -73,7 +73,7 @@ public class Ex29 {
      * @param a   排序后的数组
      * @return 等于key的元素数量
      */
-    private static int count(int key, int[] a) {
+    public static int count(int key, int[] a) {
         int count = 0;
         for (int i : a) {
             if (i == key) {

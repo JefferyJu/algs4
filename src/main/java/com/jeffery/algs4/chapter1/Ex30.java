@@ -17,11 +17,7 @@ public class Ex30 {
         boolean[][] bs = new boolean[n][n];
         for (int i = 1; i < n; i++) {
             for (int j = 1; j < n; j++) {
-                if (euclid(i, j) == 1) {
-                    bs[i][j] = true;
-                } else {
-                    bs[i][j] = false;
-                }
+                bs[i][j] = euclid(i, j) == 1;
                 //System.out.println(bs[i][j]);
             }
         }
@@ -57,7 +53,8 @@ public class Ex30 {
     }
 
     /**
-     *  打印数组
+     * 打印数组
+     *
      * @param a 数组
      */
     public static void soutStar(boolean[][] a) {
