@@ -13,8 +13,8 @@ import java.math.RoundingMode;
  */
 public class CalBigDecimal {
     public static void main(String[] args) {
-        BigDecimal a = new BigDecimal(3);
-        BigDecimal b = new BigDecimal(9);
-        System.out.print(a.divide(b,2, RoundingMode.HALF_UP).multiply(new BigDecimal(100)));
+        BigDecimal a = new BigDecimal(0.987645);
+        BigDecimal b = new BigDecimal(1);
+        System.out.print((a.multiply(new BigDecimal(100)).divide(b,2, RoundingMode.HALF_UP)));
     }
 }
